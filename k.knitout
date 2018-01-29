@@ -1,0 +1,244 @@
+;!knitout-2
+;;Carriers: 1 2 3 4 5 6 7 8 9 10
+
+; reference:
+;
+; 01234567890123
+; ..............8
+; ......kk......7
+; ......kk......6
+; ......kk..kk..5
+; ......kk.kk...4
+; ......kkkk....3
+; ..kk..kk.kk...2
+; ..kk..kk..kk..1
+; ..............0
+;
+
+inhook 3
+tuck - f13 3
+tuck - f11 3
+tuck - f9 3
+tuck - f7 3
+tuck - f5 3
+tuck - f3 3
+tuck - f1 3
+tuck + f0 3
+tuck + f2 3
+tuck + f4 3
+tuck + f6 3
+tuck + f8 3
+tuck + f10 3
+tuck + f12 3
+releasehook 3
+
+knit - f13 3
+knit - f12 3
+knit - f11 3
+knit - f10 3
+knit - f9 3
+knit - f8 3
+knit - f7 3
+knit - f6 3
+knit - f5 3
+knit - f4 3
+knit - f3 3
+knit - f2 3
+knit - f1 3
+knit - f0 3
+
+knit + f0 3
+knit + f1 3
+knit + f2 3
+knit + f3 3
+knit + f4 3
+knit + f5 3
+knit + f6 3
+knit + f7 3
+knit + f8 3
+knit + f9 3
+knit + f10 3
+knit + f11 3
+knit + f12 3
+knit + f13 3
+
+; row 1
+
+xfer f11 b11
+xfer f10 b10
+xfer f7 b7
+xfer f6 b6
+
+xfer f3 b3
+xfer f2 b2
+
+knit - f13 3
+knit - f12 3
+knit - b11 3
+knit - b10 3
+knit - f9 3
+knit - f8 3
+knit - b7 3
+knit - b6 3
+knit - f5 3
+knit - f4 3
+knit - b3 3
+knit - b2 3
+knit - f1 3
+knit - f0 3
+
+; row 2
+
+xfer b11 f11
+xfer f9 b9
+
+knit + f0 3
+knit + f1 3
+knit + b2 3
+knit + b3 3
+knit + f4 3
+knit + f5 3
+knit + b6 3
+knit + b7 3
+knit + f8 3
+knit + b9 3
+knit + b10 3
+knit + f11 3
+knit + f12 3
+knit + f13 3
+
+; row 3
+
+xfer b10 f10
+xfer b3 f3
+xfer b2 f2
+
+xfer f8 b8
+
+knit - f13 3
+knit - f12 3
+knit - f11 3
+knit - f10 3
+knit - b9 3
+knit - b8 3
+knit - b7 3
+knit - b6 3
+knit - f5 3
+knit - f4 3
+knit - f3 3
+knit - f2 3
+knit - f1 3
+knit - f0 3
+
+; row 4
+
+xfer b8 f8
+xfer f10 b10
+
+knit + f0 3
+knit + f1 3
+knit + f2 3
+knit + f3 3
+knit + f4 3
+knit + f5 3
+knit + b6 3
+knit + b7 3
+knit + f8 3
+knit + b9 3
+knit + b10 3
+knit + f11 3
+knit + f12 3
+knit + f13 3
+
+; row 5
+
+xfer b9 f9
+xfer f11 b11
+
+knit - f13 3
+knit - f12 3
+knit - b11 3
+knit - b10 3
+knit - f9 3
+knit - f8 3
+knit - b7 3
+knit - b6 3
+knit - f5 3
+knit - f4 3
+knit - f3 3
+knit - f2 3
+knit - f1 3
+knit - f0 3
+
+; row 6
+
+xfer b10 f10
+xfer b11 f11
+
+knit + f0 3
+knit + f1 3
+knit + f2 3
+knit + f3 3
+knit + f4 3
+knit + f5 3
+knit + b6 3
+knit + b7 3
+knit + f8 3
+knit + f9 3
+knit + f10 3
+knit + f11 3
+knit + f12 3
+knit + f13 3
+
+; row 7
+
+knit - f13 3
+knit - f12 3
+knit - f11 3
+knit - f10 3
+knit - f9 3
+knit - f8 3
+knit - b7 3
+knit - b6 3
+knit - f5 3
+knit - f4 3
+knit - f3 3
+knit - f2 3
+knit - f1 3
+knit - f0 3
+
+xfer b6 f6
+xfer b7 f7
+
+; some blank
+
+knit + f0 3
+knit + f1 3
+knit + f2 3
+knit + f3 3
+knit + f4 3
+knit + f5 3
+knit + f6 3
+knit + f7 3
+knit + f8 3
+knit + f9 3
+knit + f10 3
+knit + f11 3
+knit + f12 3
+knit + f13 3
+
+knit - f13 3
+knit - f12 3
+knit - f11 3
+knit - f10 3
+knit - f9 3
+knit - f8 3
+knit - f7 3
+knit - f6 3
+knit - f5 3
+knit - f4 3
+knit - f3 3
+knit - f2 3
+knit - f1 3
+knit - f0 3
+
