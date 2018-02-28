@@ -21,22 +21,22 @@ k.inhook(carrier);
 
 //perform the initial tuck cast on
 for (var s=width; s>0; s--) {
-    if(s%2==front) {
-        k.tuck("-", "f"+s, carrier);
-    }
-    else {
-        k.tuck("-", "b"+s, carrier);
-    }
+	if(s%2==front) {
+		k.tuck("-", "f"+s, carrier);
+	}
+	else {
+		k.tuck("-", "b"+s, carrier);
+	}
 }
 
 //knit the tucked on stitches, making sure to skip the one we just tucked
 for (var s=2; s<=width; s++) {
-    if (s%2==front) {
-        k.knit("+", "f"+s, carrier);
-    }
-    else {
-        k.knit("+", "b"+s, carrier);
-    }    
+	if (s%2==front) {
+		k.knit("+", "f"+s, carrier);
+	}
+	else {
+		k.knit("+", "b"+s, carrier);
+	}	 
 }
 
 // release the yarn inserting hook
@@ -46,25 +46,25 @@ k.releasehook(carrier);
 var current_height = 0;
 
 while (current_height < height) {
-    for (var s=width; s>0; s--) {
-        if (s%2==front) {
-            k.knit("-", "f"+s, carrier);
-        }
-        else {
-            k.knit("-", "b"+s, carrier);
-        }
-    }
-    current_height++;
+	for (var s=width; s>0; s--) {
+		if (s%2==front) {
+			k.knit("-", "f"+s, carrier);
+		}
+		else {
+			k.knit("-", "b"+s, carrier);
+		}
+	}
+	current_height++;
 
-    for (var s=1; s<=width; s++) {
-        if (s%2==front) {
-            k.knit("+", "f"+s, carrier);
-        }
-        else {
-            k.knit("+", "b"+s, carrier);
-        }
-    }
-    current_height++;
+	for (var s=1; s<=width; s++) {
+		if (s%2==front) {
+			k.knit("+", "f"+s, carrier);
+		}
+		else {
+			k.knit("+", "b"+s, carrier);
+		}
+	}
+	current_height++;
 }
 
 // bring the yarn out with the yarn inserting hook
