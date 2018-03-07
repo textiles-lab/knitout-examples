@@ -13,7 +13,6 @@ var height = 60;
 //width needs to be multiples of 3 plus 2
 var width = 47; //want to put first stich on the front bed, hack for now
 var carrier = 6;
-var front = true;
 // bring in carrier using yarn inserting hook
 k.inhook(carrier);
 
