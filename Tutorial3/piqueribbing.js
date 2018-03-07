@@ -11,6 +11,8 @@ k.addHeader('Carriers', '1');
 //height needs to be multiples of 4
 var height = 60;
 //width needs to be multiples of 3 plus 2
+//and for this implementation, to avoid knit on the last one tucked on
+//width must be odd
 var width = 47; //want to put first stich on the front bed, hack for now
 var carrier = 6;
 // bring in carrier using yarn inserting hook

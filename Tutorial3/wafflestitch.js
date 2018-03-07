@@ -12,66 +12,44 @@ function row1()
 {
   for (var s=width; s>0; s--)
   {
-    if (s%2==0)
+    if (s%3!=1)
     {
       k.knit("-", "b"+s, carrier);
     }
     else
     {
       k.knit("-", "f"+s, carrier);
-    }
-  }
-  for (var s = 1; s<=width; s++)
-  {
-    if(s%2 == 0)
-    {
-      k.xfer("b"+s, "f"+s);
-    }
-    else
-    {
-      k.xfer("f"+s, "b"+s);
     }
   }
 }
 
 function row2()
 {
-  for (var s=width; s>0; s--)
+  for (var s=1; s<=width; s++)
   {
-    if (s%2==0)
+    if (s%3!=1)
     {
-      k.knit("-", "f"+s, carrier);
+      k.knit("+", "b"+s, carrier);
     }
     else
     {
-      k.knit("-", "b"+s, carrier);
+      k.knit("+", "f"+s, carrier);
+    }
+  }
+  for (var s = width; s>0; s--)
+  {
+    if (s%3!=1)
+    {
+      k.xfer("b"+s, "f"+s);
     }
   }
 }
 
 function row3()
 {
-  for (var s=width; s>0; s--)
+  for (var s=1; s<=width; s++)
   {
-    if (s%2==0)
-    {
-      k.knit("-", "f"+s, carrier);
-    }
-    else
-    {
-      k.knit("-", "b"+s, carrier);
-    }
-  }
-  for (var s = 1; s<=width; s++)
-  {
-    if(s%2 == 0)
-    {
-      k.xfer("f"+s, "b"+s);
-    }
-    else
-    {
-      k.xfer("b"+s, "f"+s);
-    }
+      k.knit("+", "f"+s, carrier);
   }
 }
 
@@ -79,50 +57,57 @@ function row4()
 {
   for (var s=width; s>0; s--)
   {
-    if (s%2==0)
-    {
-      k.knit("-", "b"+s, carrier);
-    }
-    else
-    {
       k.knit("-", "f"+s, carrier);
+  }
+  for (var s=1; s<=width; s++)
+  {
+    if (s%3!=1)
+    {
+      k.xfer("f"+s, "b"+s);
     }
   }
-}
+ }
 
 
 // swatch variables
 //height needs to be multiples of 4
 var height = 40;
-//width needs to be multiples 2
+//width needs to be multiples 3 plus 1
+//and for this implementation to avoid knit on the last one tucked on
+//width must be even
 var width = 40;
 var carrier = 6;
 // bring in carrier using yarn inserting hook
 k.inhook(carrier);
 
-//tuck on all needles
-for (var s=width; s>0; s--)
+//tuck on alternate needles and tuck the rest on the way back
+for (var s = width ; s>0 ; s--)
 {
-  if(s%2==0)
+  if (s%2 == 0)
   {
-    k.tuck("-", "b"+s, carrier);
-  }
-  else
-  {
-    k.tuck("-", "f"+s, carrier);
+    if (s%3 != 1)
+    {
+      k.tuck("-", "b"+s, carrier);
+    }
+    else
+    {
+      k.tuck("-", "f"+s, carrier);
+    }
   }
 }
 
-//rib on way back, skip last of the tucks
-for (var s=2; s<=width; s++)
+for (var s = 1 ; s<=width ; s++)
 {
-  if (s%2==0)
+  if (s%2 != 0)
   {
-    k.knit("+", "b"+s, carrier);
-  }
-  else
-  {
-    k.knit("+", "f"+s, carrier);
+    if (s%3 != 1)
+    {
+      k.tuck("+", "b"+s, carrier);
+    }
+    else
+    {
+      k.tuck("+", "f"+s, carrier);
+    }
   }
 }
 
@@ -141,4 +126,4 @@ for(var h = 1 ; h <= height ; h = h+4)
 k.outhook(carrier);
 
 // write the knitout to a file
-k.write('../../swatches/irishmoss.k');
+k.write('../../swatches/wafflestitch.k');
