@@ -36,7 +36,7 @@ function row1()
 //but yarn carrier moves in the opposite direction
 function row2()
 {
- for (var i = 0; i <= width ; i++)
+ for (var i = 1; i <= width ; i++)
     {
       if (i%3 == 0)
       {
