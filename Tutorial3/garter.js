@@ -1,6 +1,6 @@
 // import the knitoutWriter code and instantiate it as an object
 var knitoutWriter = require('../knitout-frontend/knitoutWriter');
-k = new knitoutWriter();
+k = new knitoutWriter({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
 k.addHeader('Machine','SWGXYZ');
@@ -13,7 +13,7 @@ var width = 21; //want to put first stich on the front bed, hack for now
 var carrier = 6;
 
 // bring in carrier using yarn inserting hook
-k.inhook(carrier); 
+k.inhook(carrier);
 
 
 // tuck on alternate needles to cast on

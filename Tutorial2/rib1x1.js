@@ -1,6 +1,6 @@
 // import the knitoutWriter code and instantiate it as an object
 var knitoutWriter = require('knitoutWriter');
-k = new knitoutWriter();
+k = new knitoutWriter({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
 k.addHeader('Machine','SWGXYZ');
@@ -9,7 +9,7 @@ k.addHeader('Carriers', '6');
 
 // swatch variables
 var height = 40;
-var width = 20; 
+var width = 20;
 var carrier = 6;
 
 // make sure the very first stitch in on the front bed,
@@ -17,7 +17,7 @@ var carrier = 6;
 var front = width%2;
 
 // bring in carrier using yarn inserting hook
-k.inhook(carrier); 
+k.inhook(carrier);
 
 //perform the initial tuck cast on
 for (var s=width; s>0; s--) {
@@ -36,7 +36,7 @@ for (var s=2; s<=width; s++) {
 	}
 	else {
 		k.knit("+", "b"+s, carrier);
-	}	 
+	}
 }
 
 // release the yarn inserting hook

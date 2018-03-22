@@ -1,6 +1,6 @@
 //import the knitout writer code and instantiate it as an object
 var knitoutWriter = require('../../knitout-frontend-js/knitoutWriter');
-k = new knitoutWriter();
+k = new knitoutWriter({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
 k.addHeader('Machine','SWGXYZ');
