@@ -1,6 +1,6 @@
 // import the knitoutWriter code and instantiate it as an object
 // passing in all eight carriers despite not using all of them
-const knitout = require('knitout');
+const knitout = require('../../knitout-frontend-js/knitout');
 let k = new knitout.Writer({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
@@ -9,7 +9,7 @@ k.addHeader('Gauge','15');
 
 // swatch variables
 var height = 30;
-var width = 41; 
+var width = 41;
 var carrier = '6';
 
 // make sure the very first stitch in on the front bed,
@@ -37,7 +37,7 @@ for (var s=2; s<=width; s++) {
     }
     else {
         k.knit("+", "b"+s, carrier);
-    }    
+    }
 }
 
 // release the yarn inserting hook
@@ -94,7 +94,7 @@ while (current_height<height) {
 k.outhook(carrier);
 
 // write the knitout to a file called "out.k"
-k.write('output/seedstitch.k');
+k.write('../../swatches/seedstitch.k');
 
 
 

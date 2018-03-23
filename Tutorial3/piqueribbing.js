@@ -1,11 +1,10 @@
 //import the knitout writer code and instantiate it as an object
-var knitoutWriter = require('../../knitout-frontend-js/knitoutWriter');
-k = new knitoutWriter({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
+var knitout = require('../../knitout-frontend-js/knitout');
+k = new knitout.Writer({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
 k.addHeader('Machine','SWGXYZ');
 k.addHeader('Gauge','15');
-k.addHeader('Carriers', '1');
 
 // swatch variables
 //height needs to be multiples of 4
@@ -14,7 +13,7 @@ var height = 60;
 //and for this implementation, to avoid knit on the last one tucked on
 //width must be odd
 var width = 47; //want to put first stich on the front bed, hack for now
-var carrier = 6;
+var carrier = '6';
 // bring in carrier using yarn inserting hook
 k.inhook(carrier);
 
@@ -68,7 +67,7 @@ function row3()
     }
     for (var i = width; i > 0 ; i--)
     {
-      if (i%3 == 0)
+      if (i%3 != 0)
       {
         k.xfer("f"+i, "b"+i);
       }
