@@ -40,6 +40,10 @@ for (var s=2; s<=width; s++) {
     }
 }
 
+//lets knit an extra row to make sure stitches are definitely stable
+
+
+
 // release the yarn inserting hook
 k.releasehook(carrier);
 
@@ -49,6 +53,16 @@ var current_height = 0
 while (current_height<height) {
 	for (var s=width; s>0; s--) {
 		if (s%2==front) {
+			k.knit("-", "f"+s, carrier);
+		}
+		else {
+			k.knit("-", "b"+s, carrier);
+		}
+	}
+
+
+	for (var s=width; s>0; s--) {
+		if (s%2==front) {
 			k.xfer("f"+s, "b"+s);
 		}
 		else {
@@ -56,14 +70,7 @@ while (current_height<height) {
 		}
 	}
 
-	for (var s=width; s>0; s--) {
-		if (s%2==front) {
-			k.knit("-", "b"+s, carrier);
-		}
-		else {
-			k.knit("-", "f"+s, carrier);
-		}
-	}
+	
 	current_height++;
 
 	if (current_height >= height) {
@@ -72,6 +79,16 @@ while (current_height<height) {
 
 	for (var s=1; s<=width; s++) {
 		if (s%2==front) {
+			k.knit("+", "b"+s, carrier);
+		}
+		else {
+			k.knit("+", "f"+s, carrier);
+		}
+	}
+
+
+	for (var s=1; s<=width; s++) {
+		if (s%2==front) {
 			k.xfer("b"+s, "f"+s);
 		}
 		else {
@@ -79,14 +96,7 @@ while (current_height<height) {
 		}
 	}
 
-	for (var s=1; s<=width; s++) {
-		if (s%2==front) {
-			k.knit("+", "f"+s, carrier);
-		}
-		else {
-			k.knit("+", "b"+s, carrier);
-		}
-	}
+	
 	current_height++;
 }
 
