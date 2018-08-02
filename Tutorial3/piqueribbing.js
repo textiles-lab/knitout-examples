@@ -137,5 +137,5 @@ for(var h = 1 ; h <= height ; h = h+4)
 k.outhook(carrier);
 
 // write the knitout to a file
-k.write('../../swatches/piqueribbing.k');
+k.write('piqueribbing.k');
 
