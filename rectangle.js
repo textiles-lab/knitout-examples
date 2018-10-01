@@ -1,45 +1,59 @@
 #!/bin/sh
 ':' //; exec "$(command -v nodejs || command -v node)" "$0" "$@"
 
-let width = 30;
-let height = 10;
+//Parameters:
+
+const Width = 30;
+const Height = 40;
+const Carrier = "3";
+
+//Operation:
+
+//Makes a Width x Height rectangle of plain knitting on the front bed with carrier Carrier.
+//Uses an alternating-tucks cast-on.
+
 
 
 console.log(";!knitout-2");
 console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10");
 
-console.log("inhook 3");
+//Alternating tucks cast-on:
+
+console.log("inhook " + Carrier);
+
+console.log("x-stitch-number 61"); //in our table: "Half / Wrap" for Polo
 
 let min = 1;
-let max = min + width - 1;
+let max = min + Width - 1;
 
 for (let n = max; n >= min; --n) {
 	if ((max-n) % 2 == 0) {
-		console.log("tuck - f" + n + " 3");
+		console.log("tuck - f" + n + " " + Carrier);
 	}
 }
 for (let n = min; n <= max; ++n) {
 	if ((max-n)%2 == 1) {
-		console.log("tuck + f" + n + " 3");
+		console.log("tuck + f" + n + " " + Carrier);
 	}
 }
 
-console.log("miss + f" + max + " 3");
+console.log("miss + f" + max + " " + Carrier);
 
-console.log("releasehook 3");
+console.log("releasehook " + Carrier);
 
-console.log("x-stitch-number 40");
+// Rows of plain knitting:
+console.log("x-stitch-number 63"); //in our table: "Knitting" for Polo
 
-for (let r = 0; r < height; ++r) {
+for (let r = 0; r < Height; ++r) {
 	if (r % 2 == 0) {
 		for (let n = max; n >= min; --n) {
-			console.log("knit - f" + n + " 3");
+			console.log("knit - f" + n + " " + Carrier);
 		}
 	} else {
 		for (let n = min; n <= max; ++n) {
-			console.log("knit + f" + n + " 3");
+			console.log("knit + f" + n + " " + Carrier);
 		}
 	}
 }
 
-console.log("outhook 3");
+console.log("outhook " + Carrier);
