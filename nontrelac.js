@@ -53,6 +53,12 @@ if (Carrier2) {
 		console.log("knit + f" + n + " " + Carrier2);
 	}
 	console.log("releasehook " + Carrier2);
+	for (let n = max; n >= min; --n) {
+		console.log("knit - f" + n + " " + Carrier2);
+	}
+	for (let n = min; n <= max; ++n) {
+		console.log("knit + f" + n + " " + Carrier2);
+	}
 }
 
 //knit a right-leaning square:

@@ -4,6 +4,9 @@ rectangle.knitout : rectangle.js
 interlock.knitout : interlock.js
 	./interlock.js > interlock.knitout
 
+entrelac.knitout : entrelac.js
+	./entrelac.js > entrelac.knitout
+
 nontrelac.knitout : nontrelac.js
 	./nontrelac.js > nontrelac.knitout
 
