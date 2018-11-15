@@ -3,10 +3,11 @@
 
 
 let width = 19; //width of each square
-let reps = 3; //how many squares in each row
-let repeats = 4; //each repeat is a pair of square rows
+let reps = 2; //how many squares in each row
+let repeats = 2; //each repeat is a pair of square rows
 let padding = 15;
 let Carrier = 5;
+let Carrier2 = 3;
 let min = 1;
 let max = min + (2*reps+1)*(width-1);
 
@@ -44,6 +45,14 @@ for (let row = 0; row < padding; row += 2) {
 	for (let n = max; n >= min; --n) {
 		console.log("knit - f" + n + " " + Carrier);
 	}
+}
+
+if (Carrier2) {
+	console.log("inhook " + Carrier2);
+	for (let n = min; n <= max; ++n) {
+		console.log("knit + f" + n + " " + Carrier2);
+	}
+	console.log("releasehook " + Carrier2);
 }
 
 //knit a right-leaning square:
@@ -119,6 +128,7 @@ function rightTriangle(min, max) {
 //  min mid max
 function leftSquare(min, mid, max) {
 	console.assert(mid-min === max-mid, "width of each part should be the same.");
+	let C = (Carrier2 ? Carrier2 : Carrier);
 	let width = max - mid + 1;
 	for (let row = 0; row < width; ++row) {
 		let left = max-row-(width-1);
@@ -137,14 +147,14 @@ function leftSquare(min, mid, max) {
 			}
 
 			for (let n = right; n >= left; --n) {
-				console.log("knit - f" + n + " " + Carrier);
+				console.log("knit - f" + n + " " + C);
 			}
 		} else {
 			for (let n = left; n <= right; ++n) {
 				if (xfer_inside && n == right) {
-					console.log("split - f" + n + " b" + n + " " + Carrier);
+					console.log("split - f" + n + " b" + n + " " + C);
 				} else {
-					console.log("knit + f" + n + " " + Carrier);
+					console.log("knit + f" + n + " " + C);
 				}
 			}
 		}
@@ -158,6 +168,7 @@ function leftSquare(min, mid, max) {
 //  ^   ^
 //  mid max
 function leftTriangle(min, max) {
+	let C = (Carrier2 ? Carrier2 : Carrier);
 	let width = max - min + 1;
 	for (let row = 0; row < width; ++row) {
 		let left = max-row;
@@ -165,11 +176,11 @@ function leftTriangle(min, max) {
 		if (row + 1 === width) left += 1;
 		if (row % 2 === 0) {
 			for (let n = right; n >= left; --n) {
-				console.log("knit - f" + n + " " + Carrier);
+				console.log("knit - f" + n + " " + C);
 			}
 		} else {
 			for (let n = left; n <= right; ++n) {
-				console.log("knit + f" + n + " " + Carrier);
+				console.log("knit + f" + n + " " + C);
 			}
 		}
 	}
@@ -181,12 +192,29 @@ for (let cr = 0; cr < repeats; ++cr) {
 		rightSquare(min + (2*rep+1)*(width-1), min + (2*rep+2)*(width-1), min + (2*rep+3)*(width-1));
 	}
 	console.log("knit + f" + max + " " + Carrier);
+	if (Carrier2) {
+		for (let n = max; n >= min; --n) {
+			console.log("knit - f" + n + " " + Carrier);
+		}
+	}
 
 	leftTriangle(min + (2*reps)*(width-1), min + (2*reps+1)*(width-1));
 	for (let rep = reps-1; rep >= 0; --rep) {
 		leftSquare(min + (2*rep+0)*(width-1), min + (2*rep+1)*(width-1), min + (2*rep+2)*(width-1));
 	}
-	console.log("knit - f" + min + " " + Carrier);
+	if (Carrier2) {
+		console.log("knit - f" + min + " " + Carrier2);
+
+		for (let n = min; n <= max; ++n) {
+			console.log("knit + f" + n + " " + Carrier2);
+		}
+	} else {
+		console.log("knit - f" + min + " " + Carrier);
+	}
+}
+
+if (Carrier2) {
+	console.log("outhook " + Carrier2);
 }
 
 
