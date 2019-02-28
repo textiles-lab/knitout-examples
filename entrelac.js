@@ -2,13 +2,13 @@
 ':' //; exec "$(command -v nodejs || command -v node)" "$0" "$@"
 
 
-let height = 19; //height of square
+let height = 21; //height of square
 let width = Math.floor(height/2); //width of each square
-let reps = 2; //how many squares in each row
-let repeats = 1; //each repeat is a pair of square rows
-let padding = 15;
-let Carrier = 5;
-let Carrier2 = 3;
+let reps = 6; //how many squares in each row
+let repeats = 3 * 2; //each repeat is a pair of square rows
+let rib = 3*20;
+let Carrier = "6";
+let Carrier2 = "3";
 let min = 1;
 let max = min + (2*reps+1)*(width);
 
@@ -19,18 +19,60 @@ console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10")
 
 console.log("inhook " + Carrier);
 
-console.log("x-stitch-number " + 67);
+console.log("x-stitch-number " + 68); //looser cast-on
 
+//some sort of new rib-like cast on thing:
 for (let n = max; n >= min; --n) {
 	if ((max-n) % 2 == 0) {
 		console.log("tuck - f" + n + " " + Carrier);
+	} else {
+		console.log("tuck - b" + n + " " + Carrier);
 	}
 }
 for (let n = min; n <= max; ++n) {
-	if ((max-n)%2 == 1) {
+	if ((max-n) % 2 == 0) {
+		console.log("tuck + b" + n + " " + Carrier);
+	} else {
 		console.log("tuck + f" + n + " " + Carrier);
-	} else if (n === max) {
-		console.log("miss + f" + n + " " + Carrier);
+	}
+}
+
+console.log("releasehook " + Carrier);
+
+for (let n = max; n >= min; --n) {
+	console.log("knit - f" + n + " " + Carrier);
+}
+for (let n = min; n <= max; ++n) {
+	console.log("knit + b" + n + " " + Carrier);
+}
+
+console.log("x-stitch-number " + 95); //might be better than 68?
+
+function isBack(n) {
+	let pos = (((n - min) % 5) + 5) % 5;
+	return pos < 2;
+}
+
+for (let n = min; n <= max; ++n) {
+	if (isBack(n)) {
+		console.log("xfer f" + n + " b" + n);
+	} else {
+		console.log("xfer b" + n + " f" + n);
+	}
+}
+
+for (let row = 0; row < rib; row += 2) {
+	for (let n = max; n >= min; --n) {
+		console.log("knit - " + (isBack(n) ? "b" : "f") + n + " " + Carrier);
+	}
+	for (let n = min; n <= max; ++n) {
+		console.log("knit + " + (isBack(n) ? "b" : "f") + n + " " + Carrier);
+	}
+}
+
+for (let n = min; n <= max; ++n) {
+	if (isBack(n)) {
+		console.log("xfer b" + n + " f" + n);
 	}
 }
 
@@ -38,25 +80,28 @@ console.log("x-stitch-number " + 95); //might be better than 68?
 for (let n = max; n >= min; --n) {
 	console.log("knit - f" + n + " " + Carrier);
 }
-console.log("releasehook " + Carrier);
+/*
 for (let row = 0; row < padding; row += 2) {
 	for (let n = min; n <= max; ++n) {
 		console.log("knit + f" + n + " " + Carrier);
 	}
+	if (row == 0) {
+		console.log("releasehook " + Carrier);
+	}
 	for (let n = max; n >= min; --n) {
 		console.log("knit - f" + n + " " + Carrier);
 	}
-}
+}*/
 
 if (Carrier2) {
 	console.log("inhook " + Carrier2);
 	for (let n = min; n <= max; ++n) {
 		console.log("knit + f" + n + " " + Carrier2);
 	}
-	console.log("releasehook " + Carrier2);
 	for (let n = max; n >= min; --n) {
 		console.log("knit - f" + n + " " + Carrier2);
 	}
+	console.log("releasehook " + Carrier2);
 	for (let n = min; n <= max; ++n) {
 		console.log("knit + f" + n + " " + Carrier2);
 	}
@@ -223,16 +268,61 @@ if (Carrier2) {
 }
 
 
-for (let row = 0; row < padding; row += 2) {
-	for (let n = min; n <= max; ++n) {
-		console.log("knit + f" + n + " " + Carrier);
-	}
-	for (let n = max; n >= min; --n) {
-		console.log("knit - f" + n + " " + Carrier);
+for (let n = min; n <= max; ++n) {
+	if (isBack(n)) {
+		console.log("xfer f" + n + " b" + n);
+	} else {
+		console.log("xfer b" + n + " f" + n);
 	}
 }
+
+for (let row = 0; row < rib; row += 2) {
+	for (let n = min; n <= max; ++n) {
+		console.log("knit + " + (isBack(n) ? "b" : "f") + n + " " + Carrier);
+	}
+	for (let n = max; n >= min; --n) {
+		console.log("knit - " + (isBack(n) ? "b" : "f") + n + " " + Carrier);
+	}
+}
+
+for (let n = min; n <= max; ++n) {
+	if (isBack(n)) {
+		console.log("xfer b" + n + " f" + n);
+	}
+}
+
 for (let n = min; n <= max; ++n) {
 	console.log("knit + f" + n + " " + Carrier);
+	if (n != max) {
+		console.log("rack -1");
+		console.log("xfer f" + n + " b" + (n+1));
+		console.log("rack 0");
+		console.log("xfer b" + (n+1) + " f" + (n+1));
+	}
+}
+
+console.log("knit - f" + (max+0) + " " + Carrier);
+console.log("knit + f" + (max+0) + " " + Carrier);
+console.log("knit + f" + (max+1) + " " + Carrier);
+
+console.log("knit - f" + (max+2) + " " + Carrier);
+console.log("knit - f" + (max+1) + " " + Carrier);
+console.log("knit - f" + (max+0) + " " + Carrier);
+
+console.log("knit + f" + (max+0) + " " + Carrier);
+console.log("knit + f" + (max+1) + " " + Carrier);
+console.log("knit + f" + (max+2) + " " + Carrier);
+
+for (let i = 0; i < 4; ++i) {
+console.log("knit - f" + (max+3) + " " + Carrier);
+console.log("knit - f" + (max+2) + " " + Carrier);
+console.log("knit - f" + (max+1) + " " + Carrier);
+console.log("knit - f" + (max+0) + " " + Carrier);
+
+console.log("knit + f" + (max+0) + " " + Carrier);
+console.log("knit + f" + (max+1) + " " + Carrier);
+console.log("knit + f" + (max+2) + " " + Carrier);
+console.log("knit + f" + (max+3) + " " + Carrier);
 }
 
 

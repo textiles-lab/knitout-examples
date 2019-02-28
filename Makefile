@@ -10,5 +10,11 @@ entrelac.knitout : entrelac.js
 nontrelac.knitout : nontrelac.js
 	./nontrelac.js > nontrelac.knitout
 
-%.dat : %.knitout
+color_intarsia.knitout : color_intarsia.js
+	./color_intarsia.js > color_intarsia.knitout
+
+tube-heart.knitout : tube-heart.js
+	./tube-heart.js > tube-heart.knitout
+
+%.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
 	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
