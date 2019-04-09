@@ -2,7 +2,7 @@
 ;;Carriers: 1 2 3 4 5 6 7 8 9 10
 x-stitch-number 63
 inhook 3
-knit - f30 3
+knit - f35 3
 knit - b29 3
 knit - f28 3
 knit - b27 3

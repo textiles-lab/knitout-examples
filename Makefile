@@ -10,6 +10,9 @@ entrelac.knitout : entrelac.js
 nontrelac.knitout : nontrelac.js
 	./nontrelac.js > nontrelac.knitout
 
+mosaic.knitout : mosaic.js
+	./'$<' > '$@'
+
 color_intarsia.knitout : color_intarsia.js
 	./color_intarsia.js > color_intarsia.knitout
 
