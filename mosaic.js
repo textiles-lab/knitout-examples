@@ -123,4 +123,19 @@ for (let m = mosaic.length-1; m >= 0; --m) {
 	}
 }
 
+//a few plain rows, get carriers out:
 
+for (let n = min; n <= max; ++n) {
+	console.log("knit + f" + n + " " + CarrierA);
+}
+console.log("outhook " + CarrierA);
+
+for (let n = min; n <= max; ++n) {
+	console.log("knit + f" + n + " " + CarrierB);
+}
+console.log("outhook " + CarrierB);
+
+//drop:
+for (let n = min; n <= max; ++n) {
+	console.log("drop f" + n);
+}
