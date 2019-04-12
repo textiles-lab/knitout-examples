@@ -86,8 +86,17 @@ for (let m = mosaic.length-1; m >= 0; --m) {
 	const Carrier = ((m % 2) == 0 ? CarrierA : CarrierB);
 	const Symbol = ((m % 2) == 0 ? '#' : '.');
 
-	//back-bed knit everything marked with the current symbol:
+	//front-bed knit everything marked with the current symbol:
+	for (let n = min; n <= max; ++n) {
+		if (row[n-min] === Symbol) {
+			console.log("knit + f" + n + " " + Carrier);
+		} else if (n === max) {
+			//make sure carrier is out of the way:
+			console.log("miss + f" + n + " " + Carrier);
+		}
+	}
 
+	//now back-bed knit everything marked with the current symbol:
 	//(a) xfer to back:
 	for (let n = min; n <= max; ++n) {
 		if (row[n-min] === Symbol) {
@@ -95,30 +104,18 @@ for (let m = mosaic.length-1; m >= 0; --m) {
 		}
 	}
 	//(b) knit:
-	for (let n = min; n <= max; ++n) {
+	for (let n = max; n >= min; --n) {
 		if (row[n-min] === Symbol) {
-			console.log("knit + b" + n + " " + Carrier);
-		} else if (n === max) {
+			console.log("knit - b" + n + " " + Carrier);
+		} else if (n === min) {
 			//make sure carrier is out of the way:
-			console.log("miss + b" + n + " " + Carrier);
+			console.log("miss - b" + n + " " + Carrier);
 		}
 	}
-
-	//now front-bed knit everything marked with the current symbol:
-
-	//(a) xfer to front:
+	//(c) xfer to front:
 	for (let n = max; n >= min; --n) {
 		if (row[n-min] === Symbol) {
 			console.log("xfer b" + n + " " + "f" + n + " ;return '" + Symbol + "'");
-		}
-	}
-	//(b) knit:
-	for (let n = max; n >= min; --n) {
-		if (row[n-min] === Symbol) {
-			console.log("knit - f" + n + " " + Carrier);
-		} else if (n === min) {
-			//make sure carrier is out of the way:
-			console.log("miss - f" + n + " " + Carrier);
 		}
 	}
 }
