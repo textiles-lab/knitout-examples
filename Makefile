@@ -22,5 +22,8 @@ tube-heart.knitout : tube-heart.js
 chain-link.knitout : chain-link.js
 	./chain-link.js > chain-link.knitout
 
+rainbow-tj.knitout : rainbow-tj.js
+	./rainbow-tj.js > rainbow-tj.knitout
+
 %.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
 	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
