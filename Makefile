@@ -25,5 +25,8 @@ chain-link.knitout : chain-link.js
 rainbow-tj.knitout : rainbow-tj.js
 	./rainbow-tj.js > rainbow-tj.knitout
 
+seed.knitout : seed.js
+	./seed.js > seed.knitout
+
 %.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
 	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
