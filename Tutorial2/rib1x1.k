@@ -1,7 +1,7 @@
 ;!knitout-2
+;;Carriers: 1 2 3 4 5 6 7 8
 ;;Machine: SWGXYZ
 ;;Gauge: 15
-;;Carriers: 6
 inhook 6
 tuck - f20 6
 tuck - b19 6

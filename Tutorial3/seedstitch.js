@@ -1,6 +1,6 @@
 // import the knitoutWriter code and instantiate it as an object
 // passing in all eight carriers despite not using all of them
-const knitout = require('../../knitout-frontend-js/knitout');
+const knitout = require('knitout');
 let k = new knitout.Writer({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
@@ -40,7 +40,6 @@ for (var s=2; s<=width; s++) {
     }
 }
 
-//lets knit an extra row to make sure stitches are definitely stable
 
 
 
@@ -103,8 +102,8 @@ while (current_height<height) {
 // bring the yarn out with the yarn inserting hook
 k.outhook(carrier);
 
-// write the knitout to a file called "out.k"
-k.write('../../swatches/seedstitch.k');
+// write the knitout to a file called "seedstitch.k"
+k.write('seedstitch.k');
 
 
 

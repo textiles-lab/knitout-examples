@@ -1,5 +1,5 @@
 // import the knitoutWriter code and instantiate it as an object
-var knitout = require('../../knitout-frontend-js/knitout');
+var knitout = require('knitout');
 k = new knitout.Writer({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
@@ -8,7 +8,7 @@ k.addHeader('Gauge','15');
 
 // swatch variables
 var height = 40;
-var width = 41; //want to put first stich on the front bed, hack for now
+var width = 41; 
 var carrier = '6';
 
 // bring in carrier using yarn inserting hook
@@ -58,7 +58,7 @@ for (var h=0; h<height; h++) {
 // bring the yarn out with the yarn inserting hook
 k.outhook(carrier);
 
-// write the knitout to a file called "out.k"
-k.write('../../swatches/garter.k');
+// write the knitout to a file called "garter.k"
+k.write('garter.k');
 
 
