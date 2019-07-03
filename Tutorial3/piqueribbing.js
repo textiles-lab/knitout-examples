@@ -1,5 +1,5 @@
 //import the knitout writer code and instantiate it as an object
-var knitout = require('../../knitout-frontend-js/knitout');
+var knitout = require('knitout');
 k = new knitout.Writer({carriers:['1', '2', '3', '4', '5', '6', '7', '8']});
 
 // add some headers relevant to this job
