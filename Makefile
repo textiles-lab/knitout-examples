@@ -1,6 +1,9 @@
 rectangle.knitout : rectangle.js
 	./rectangle.js > rectangle.knitout
 
+rectangle-bindoff.knitout : rectangle-bindoff.js
+	./rectangle-bindoff.js > rectangle-bindoff.knitout
+
 interlock.knitout : interlock.js
 	./interlock.js > interlock.knitout
 
