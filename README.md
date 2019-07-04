@@ -1,3 +1,7 @@
+# License
+
+These example files are placed into the public domain.
+
 # Knitout Examples
 
 This repository contains a collection of example knitting patterns in knitout format.
