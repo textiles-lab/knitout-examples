@@ -3,6 +3,15 @@
 
 //Parameters:
 
+/* on our machine, this is a (big) 12x24"-ish rectangle:
+const Width = 240;
+const Height = 740; 
+const Carrier = "7";
+const CastOnStitch = 91; // stitch: 25 / leading: 20
+const KnittingStitch = 109; // user-defined(!)
+*/
+
+//Settings for a small test rectangle:
 const Width = 30;
 const Height = 40;
 const Carrier = "3";
@@ -17,6 +26,8 @@ const DoBindOff = true;
 
 console.log(";!knitout-2");
 console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10");
+
+console.log("x-presser-mode auto");
 
 //Alternating tucks cast-on:
 
@@ -74,6 +85,9 @@ if (DoBindOff) {
 			console.log("tuck + b" + n + " " + Carrier);
 		}
 		console.log("knit + f" + (n+1) + " " + Carrier);
+		if (n+2 <= max) {
+			console.log("miss + f" + (n+2) + " " + Carrier);
+		}
 		console.log("rack 0.0");
 	}
 	console.log("knit - f" + max + " " + Carrier);
