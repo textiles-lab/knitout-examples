@@ -28,6 +28,12 @@ chain-link.knitout : chain-link.js
 rainbow-tj.knitout : rainbow-tj.js
 	./rainbow-tj.js > rainbow-tj.knitout
 
+image-tj.knitout : image-tj.js image-tj.png
+	./image-tj.js > image-tj.knitout
+
+hyperbolic-plane.knitout : hyperbolic-plane.js
+	./hyperbolic-plane.js > hyperbolic-plane.knitout
+
 seed.knitout : seed.js
 	./seed.js > seed.knitout
 
