@@ -7,12 +7,19 @@
  load an image and build a tubular jacquard from it
  */
 
+if (process.argv.length < 3) {
+	console.error("Usage:\n\timage-tj.js <image.png>");
+	process.exit(1);
+}
+
+const image = process.argv[2];
+
 const CarrierA = '3';
 const CarrierB = '6';
 
 const fs = require('fs');
 const PNG = require('pngjs').PNG;
-const png = PNG.sync.read(fs.readFileSync('image-tj.png'));
+const png = PNG.sync.read(fs.readFileSync(image));
 const Width = png.width;
 const Height = png.height;
 
@@ -62,36 +69,122 @@ function band(A,B) {
 	console.log("knit - f" + (max + 1) + " " + B);
 
 	console.log("releasehook " + B);
+
+	let dirA = "-";
+	let dirB = "-";
+
 	for (let r = 0; r < Height; ++r) {
-		let useA = [];
+		let frontA = [];
+		let backA = [];
+		let frontB = [];
+		let backB = [];
 		for (let c = 0; c < Width; ++c) {
-			if (png.data[4*(png.width*(Height-1-r)+c)] > 128) {
-				useA.push(true);
+			frontA.push(false);
+			backA.push(false);
+			frontB.push(false);
+			backB.push(false);
+		}
+		for (let c = 0; c < Width; ++c) {
+			let col = {
+				r:png.data[4*(png.width*(Height-1-r)+c)+0],
+				g:png.data[4*(png.width*(Height-1-r)+c)+1],
+				b:png.data[4*(png.width*(Height-1-r)+c)+2]
+			};
+			if (col.g === 0 && col.r === 0) {
+				frontA[c] = true;
+				backB[c] = true;
+			} else if (col.g === 255 && col.r === 255) {
+				backA[c] = true;
+				frontB[c] = true;
+			} else if (col.g === 255 && col.r === 0) {
+				frontA[c] = true;
+				backB[Width-1-c] = true;
+			} else if (col.g === 0 && col.r === 255) {
+				frontB[c] = true;
+				backA[Width-1-c] = true;
 			} else {
-				useA.push(false);
+				console.log("pixel with r=" + col.r + ", g=" + col.g + ", b=" + col.b + " is not understood.");
 			}
 		}
-		if (r % 2 == 0) {
-			//B row:
-			for (let n = max; n >= min; --n) {
-				console.log("knit - " + (useA[n-min] ? "b" : "f") + n + " " + B);
+		console.log("rack 0.25");
+
+		if (dirB === "+") {
+			let didB = false;
+
+			for (let n = min; n <= max; ++n) {
+				if (frontB[n-min]) {
+					console.log("knit + f" + n + " " + B);
+					didB = true;
+				}
+				if (backB[n-min]) {
+					console.log("knit + b" + n + " " + B);
+					didB = true;
+				}
+				if (didB && n == max && !(backB[n-min] || frontB[n-min])) {
+					console.log("miss + b" + n + " " + B);
+				}
 			}
 
-			//A row:
-			for (let n = max; n >= min; --n) {
-				console.log("knit - " + (useA[n-min] ? "f" : "b") + n + " " + A);
-			}
+			if (didB) dirB = "-";
 		} else {
-			//B row:
-			for (let n = min; n <= max; ++n) {
-				console.log("knit + " + (useA[n-min] ? "b" : "f") + n + " " + B);
+			let didB = false;
+
+			for (let n = max; n >= min; --n) {
+				if (backB[n-min]) {
+					console.log("knit - b" + n + " " + B);
+					didB = true;
+				}
+				if (frontB[n-min]) {
+					console.log("knit - f" + n + " " + B);
+					didB = true;
+				}
+				if (didB && n == min && !(backB[n-min] || frontB[n-min])) {
+					console.log("miss - f" + n + " " + B);
+				}
 			}
 
-			//A row:
-			for (let n = min; n <= max; ++n) {
-				console.log("knit + " + (useA[n-min] ? "f" : "b") + n + " " + A);
-			}
+			if (didB) dirB = "+";
 		}
+
+
+		if (dirA === "+") {
+			let didA = false;
+
+			for (let n = min; n <= max; ++n) {
+				if (frontA[n-min]) {
+					console.log("knit + f" + n + " " + A);
+					didA = true;
+				}
+				if (backA[n-min]) {
+					console.log("knit + b" + n + " " + A);
+					didA = true;
+				}
+				if (didA && n == max && !(backA[n-min] || frontA[n-min])) {
+					console.log("miss + b" + n + " " + A);
+				}
+			}	
+
+			if (didA) dirA = "-";
+		} else {
+			let didA = false;
+
+			for (let n = max; n >= min; --n) {
+				if (backA[n-min]) {
+					console.log("knit - b" + n + " " + A);
+					didA = true;
+				}
+				if (frontA[n-min]) {
+					console.log("knit - f" + n + " " + A);
+					didA = true;
+				}
+				if (didA && n == min && !(backA[n-min] || frontA[n-min])) {
+					console.log("miss - f" + n + " " + A);
+				}
+			}
+
+			if (didA) dirA = "+";
+		}
+		console.log("rack 0");
 
 		if (r == 0) {
 			console.log("drop f" + (max + 5));

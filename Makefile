@@ -37,5 +37,8 @@ hyperbolic-plane.knitout : hyperbolic-plane.js
 seed.knitout : seed.js
 	./seed.js > seed.knitout
 
+tj-textiles-friend.knitout : image-tj.js tj-textiles-friend-x.png
+	./image-tj.js tj-textiles-friend-x.png > tj-textiles-friend.knitout
+
 %.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
 	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
