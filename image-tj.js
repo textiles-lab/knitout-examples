@@ -54,6 +54,9 @@ function caston() {
 }
 caston();
 
+let dirA = "-";
+let dirB = "-";
+
 function band(A,B) {
 	console.log("inhook " + B);
 	console.log("tuck - f" + (max + 5) + " " + B);
@@ -70,8 +73,6 @@ function band(A,B) {
 
 	console.log("releasehook " + B);
 
-	let dirA = "-";
-	let dirB = "-";
 
 	for (let r = 0; r < Height; ++r) {
 		let frontA = [];
@@ -198,10 +199,107 @@ function band(A,B) {
 }
 band(CarrierA,CarrierB);
 
+//helper:
+function knitChart(dir,carrier,min,max,chart) {
+	for (let row = chart.length-1; row >= 0; --row) {
+		const line = chart[row];
+		console.assert(line.length == (max-min+1),"chart size should be correct");
+		if (dir === '+') {
+			for (let n = min; n <= max; ++n) {
+				if (line[n-min] === ' ') {
+					//do nothing.
+				} else if (line[n-min] === '#') {
+					console.log("knit + f" + n + " " + carrier);
+				} else {
+					throw new Error("Invalid symbol '" + line[n-min] + "' in chart.");
+				}
+			}
+			
+			dir = '-';
+		} else {
+			for (let n = max; n >= min; --n) {
+				if (line[n-min] === ' ') {
+					//do nothing.
+				} else if (line[n-min] === '#') {
+					console.log("knit - f" + n + " " + carrier);
+				} else {
+					throw new Error("Invalid symbol '" + line[n-min] + "' in chart.");
+				}
+			}
+
+			dir = '+';
+		}
+	}
+	return dir;
+}
+
+//bind-off:
+function bindOff(dir, Carrier) {
+	console.log("rack 0.25");
+	if (dir === '+') {
+		for (let n = min; n <= max; ++n) {
+			console.log("knit + f" + n + " " + Carrier);
+			console.log("rack 0");
+			console.log("xfer f" + n + " b" + n);
+			console.log("knit - b" + n + " " + Carrier);
+			if (n != max) {
+				console.log("rack 1");
+				console.log("xfer b" + n + " f" + (n+1));
+			} else {
+				console.log("xfer b" + n + " f" + n);
+			}
+		}
+		knitChart("+", Carrier, max, max+4, [
+			"#####",
+			"#####",
+			"#####",
+			"#####",
+			"#####",
+			"#####",
+			"#### ",
+			"#### ",
+			"###  ",
+			"###  ",
+			"##   ",
+			"##   ",
+			"#    ",
+		]);
+	} else {
+		for (let n = max; n >= min; --n) {
+			console.log("knit - b" + n + " " + Carrier);
+			console.log("rack 0");
+			console.log("xfer b" + n + " f" + n);
+			console.log("knit + f" + n + " " + Carrier);
+			if (n != min) {
+				console.log("rack 1");
+				console.log("xfer f" + n + " b" + (n-1));
+			}
+		}
+		knitChart("-", Carrier, min-4, min, [
+			"#####",
+			"#####",
+			"#####",
+			"#####",
+			"#####",
+			"#####",
+			" ####",
+			" ####",
+			"  ###",
+			"  ###",
+			"   ##",
+			"   ##",
+			"    #",
+		]);
+	}
+	console.log("rack 0");
+}
+bindOff(dirB, CarrierB);
+
+
 console.log("outhook " + CarrierB);
-for (let n = min; n <= max; ++n) {
+for (let n = min-4; n <= max+4; ++n) {
 	console.log("drop f" + n);
 }
-for (let n = min; n <= max; ++n) {
+for (let n = min-4; n <= max+4; ++n) {
 	console.log("drop b" + n);
 }
