@@ -40,5 +40,14 @@ seed.knitout : seed.js
 tj-textiles-friend.knitout : image-tj.js tj-textiles-friend-x.png
 	./image-tj.js tj-textiles-friend-x.png > tj-textiles-friend.knitout
 
+tj-test.knitout : image-tj.js tj-test.png
+	./image-tj.js tj-test.png > tj-test.knitout
+
+sheet-stripes.k : sheet-stripes.js
+	./sheet-stripes.js > sheet-stripes.k
+
 %.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
+	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
+
+%.dat : %.k ../knitout-backend-swg/knitout-to-dat.js
 	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
