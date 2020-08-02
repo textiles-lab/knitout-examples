@@ -2,7 +2,7 @@
 
 //intarsia on a sheet, driven by a pattern giving the carrier name per stitch:
 
-const Carriers = ["1", "2", "3"];
+const Carriers = ["4", "5", "6"];
 
 const Pattern = [
 	".......XXX.............",
@@ -21,7 +21,7 @@ const Pattern = [
 ];
 
 console.log(";!knitout-2");
-console.log(";;Carriers: " + Carriers.join(" "));
+console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10");
 
 
 const Width = Pattern[0].length;
@@ -61,7 +61,6 @@ function bringCarrier(index, n) {
 	}
 	const MaxDis = 4; //maximum distance between tucks that we'll allow
 	const TuckAlignment = index; //use different tuck offset among skipped needles
-	console.warn("At: " + carrierAt[index] + " / width: " + Width + " / target: " + n);
 	if (carrierAt[index] > n + MaxDis) {
 		let minTuck = n + 1;
 		while ((minTuck - TuckAlignment) % MaxDis != 0) ++minTuck;
@@ -136,7 +135,6 @@ for (let rowIndex = Pattern.length - 1; rowIndex >= 0; --rowIndex) {
 		segments.push([begin, end]);
 		begin = end;
 	}
-	console.warn(segments);
 	console.assert(segments.length <= Carriers.length);
 
 	if (dir === '+') {
@@ -147,11 +145,9 @@ for (let rowIndex = Pattern.length - 1; rowIndex >= 0; --rowIndex) {
 				console.log('knit + ' + 'f' + n + ' ' + Carriers[index]);
 			}
 			carrierAt[index] = end - 1;
-			console.warn("Setting A: " + carrierAt[index]);
 			if (end < Width) {
 				console.log('tuck + ' + 'f' + end + ' ' + Carriers[index]);
 				carrierAt[index] = end;
-				console.warn("Setting B: " + carrierAt[index]);
 			}
 			doDrops();
 		}

@@ -4,6 +4,9 @@ rectangle.knitout : rectangle.js
 rectangle-bindoff.knitout : rectangle-bindoff.js
 	./rectangle-bindoff.js > rectangle-bindoff.knitout
 
+intarsia.knitout : intarsia.js
+	./intarsia.js > intarsia.knitout
+
 interlock.knitout : interlock.js
 	./interlock.js > interlock.knitout
 
