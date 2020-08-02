@@ -16,6 +16,9 @@ entrelac.knitout : entrelac.js
 nontrelac.knitout : nontrelac.js
 	./nontrelac.js > nontrelac.knitout
 
+lace.knitout : lace.js
+	./'$<' > '$@'
+
 mosaic.knitout : mosaic.js
 	./'$<' > '$@'
 
