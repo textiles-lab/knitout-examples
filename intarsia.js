@@ -2,8 +2,9 @@
 
 //intarsia on a sheet, driven by a pattern giving the carrier name per stitch:
 
-const Carriers = ["4", "5", "6"];
+const Carriers = ["2", "6", "7"];
 
+/*
 const Pattern = [
 	".......XXX.............",
 	"......XXXX.............",
@@ -19,9 +20,49 @@ const Pattern = [
 	"......XXXX.............",
 	".......XXX.............",
 ];
+*/
+
+const Pattern = [
+	"..........XXXXXXXXXXXXXXXXXXXX..................",
+	"...........XXXXXXXXXXXXXXXXXXXX.................",
+	"............XXXXXXXXXXXXXXXXXXXX................",
+	".............XXXXXXXXXXXXXXXXXXXX...............",
+	"..............XXXXXXXXXXXXXXXXXXXX..............",
+	"...............XXXXXXXXXXXXXXXXXXXX.............",
+	"................XXXXXXXXXXXXXXXXXXXX............",
+	".................XXXXXXXXXXXXXXXXXXXX...........",
+	"..................XXXXXXXXXXXXXXXXXXXX..........",
+	".................XXXXXXXXXXXXXXXXXXXX...........",
+	"................XXXXXXXXXXXXXXXXXXXX............",
+	"...............XXXXXXXXXXXXXXXXXXXX.............",
+	"..............XXXXXXXXXXXXXXXXXXXX..............",
+	".............XXXXXXXXXXXXXXXXXXXX...............",
+	"............XXXXXXXXXXXXXXXXXXXX................",
+	"...........XXXXXXXXXXXXXXXXXXXX.................",
+	"..........XXXXXXXXXXXXXXXXXXXX..................",
+	".........XXXXXXXXXXXXXXXXXXXX...................",
+	"..........XXXXXXXXXXXXXXXXXXXX..................",
+	"...........XXXXXXXXXXXXXXXXXXXX.................",
+	"............XXXXXXXXXXXXXXXXXXXX................",
+	".............XXXXXXXXXXXXXXXXXXXX...............",
+	"..............XXXXXXXXXXXXXXXXXXXX..............",
+	"...............XXXXXXXXXXXXXXXXXXXX.............",
+	"................XXXXXXXXXXXXXXXXXXXX............",
+	".................XXXXXXXXXXXXXXXXXXXX...........",
+	"..................XXXXXXXXXXXXXXXXXXXX..........",
+	".................XXXXXXXXXXXXXXXXXXXX...........",
+	"................XXXXXXXXXXXXXXXXXXXX............",
+	"...............XXXXXXXXXXXXXXXXXXXX.............",
+	"..............XXXXXXXXXXXXXXXXXXXX..............",
+	".............XXXXXXXXXXXXXXXXXXXX...............",
+	"............XXXXXXXXXXXXXXXXXXXX................",
+	"...........XXXXXXXXXXXXXXXXXXXX.................",
+	"..........XXXXXXXXXXXXXXXXXXXX.................."
+];
 
 console.log(";!knitout-2");
 console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10");
+console.log('x-stitch-number 70');
 
 
 const Width = Pattern[0].length;
@@ -109,7 +150,7 @@ doDrops();
 let dir = '-';
 
 //a few starting rows with Carriers[0]:
-for (let r = 0; r < 4; ++r) {
+for (let r = 0; r < 8; ++r) {
 	if (dir === '+') {
 		for (let n = 0; n < Width; ++n) {
 			console.log('knit + ' + 'f' + n + ' ' + Carriers[0]);
@@ -146,7 +187,7 @@ for (let rowIndex = Pattern.length - 1; rowIndex >= 0; --rowIndex) {
 			}
 			carrierAt[index] = end - 1;
 			if (end < Width) {
-				console.log('tuck + ' + 'f' + end + ' ' + Carriers[index]);
+				console.log('tuck - ' + 'f' + end + ' ' + Carriers[index]);
 				carrierAt[index] = end;
 			}
 			doDrops();
@@ -161,7 +202,7 @@ for (let rowIndex = Pattern.length - 1; rowIndex >= 0; --rowIndex) {
 			}
 			carrierAt[index] = begin;
 			if (begin > 0) {
-				console.log('tuck - ' + 'f' + (begin-1) + ' ' + Carriers[index]);
+				console.log('tuck + ' + 'f' + (begin-1) + ' ' + Carriers[index]);
 				carrierAt[index] = begin-1;
 			}
 			doDrops();
@@ -179,7 +220,10 @@ for (let index = 1; index < Carriers.length; ++index) {
 }
 
 //a few final rows with Carriers[0]:
-for (let r = 0; r < 4; ++r) {
+if (dir === '+') bringCarrier(0,0);
+if (dir === '-') bringCarrier(0,Width-1);
+
+for (let r = 0; r < 8; ++r) {
 	if (dir === '+') {
 		for (let n = 0; n < Width; ++n) {
 			console.log('knit + ' + 'f' + n + ' ' + Carriers[0]);

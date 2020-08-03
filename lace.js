@@ -2,7 +2,7 @@
 
 //basic left/right transfer-based lace:
 
-const Carrier = "6";
+const Carrier = "7";
 
 //'-' is move stitches left, '+' is move stitches right
 const Pattern = [
@@ -12,12 +12,13 @@ const Pattern = [
 	"...+.....++.",
 ];
 
-const Width = Pattern[0].length * 4;
-const Height = Pattern.length * 4;
+const Margin = 6;
+const Width = Pattern[0].length * 4 + 2 * Margin;
+const Height = Pattern.length * 6;
 
 console.log(";!knitout-2");
 console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10");
-
+console.log('x-stitch-number 70');
 
 //Basic alternating tucks cast-on:
 console.log('inhook ' + Carrier);
@@ -49,7 +50,7 @@ function knitRow() {
 }
 
 //a few starting rows:
-for (let r = 0; r < 4; ++r) {
+for (let r = 0; r < 8; ++r) {
 	knitRow();
 }
 
@@ -60,8 +61,14 @@ for (let rowIndex = 0; rowIndex < Height; ++rowIndex) {
 	//duplicate pattern row to get full-width row:
 	const patternRow = Pattern[(Height - 1 - rowIndex) % Pattern.length];
 	let row = "";
-	for (let col = 0; col < Width; ++col) {
+	for (let i = 0; i < Margin; ++i) {
+		row += '.';
+	}
+	for (let col = 0; col < Width - 2 * Margin; ++col) {
 		row += patternRow[col % patternRow.length];
+	}
+	for (let i = 0; i < Margin; ++i) {
+		row += '.';
 	}
 	console.warn(row); //DEBUG
 
@@ -88,12 +95,13 @@ for (let rowIndex = 0; rowIndex < Height; ++rowIndex) {
 		}
 	}
 
-	//knit a row:
+	//knit two rows:
+	knitRow();
 	knitRow();
 }
 
 //a few ending rows:
-for (let r = 0; r < 4; ++r) {
+for (let r = 0; r < 8; ++r) {
 	knitRow();
 }
 
