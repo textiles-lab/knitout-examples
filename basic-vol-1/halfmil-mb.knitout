@@ -324,126 +324,206 @@ knit - f4 1
 knit - f3 1
 knit - f2 1
 knit - f1 1
+xfer f1 b1
 xfer f2 b2
+xfer f3 b3
 xfer f4 b4
+xfer f5 b5
 xfer f6 b6
+xfer f7 b7
 xfer f8 b8
+xfer f9 b9
 xfer f10 b10
+xfer f11 b11
 xfer f12 b12
+xfer f13 b13
 xfer f14 b14
+xfer f15 b15
 xfer f16 b16
+xfer f17 b17
 xfer f18 b18
+xfer f19 b19
 xfer f20 b20
+xfer f21 b21
 xfer f22 b22
+xfer f23 b23
 xfer f24 b24
+xfer f25 b25
 xfer f26 b26
+xfer f27 b27
 xfer f28 b28
+xfer f29 b29
 xfer f30 b30
+xfer f31 b31
 xfer f32 b32
+xfer f33 b33
 xfer f34 b34
+xfer f35 b35
 xfer f36 b36
+xfer f37 b37
 xfer f38 b38
+xfer f39 b39
 xfer f40 b40
+xfer f41 b41
 xfer f42 b42
+xfer f43 b43
 xfer f44 b44
+xfer f45 b45
 xfer f46 b46
+xfer f47 b47
 xfer f48 b48
+xfer f49 b49
 xfer f50 b50
+xfer f51 b51
 xfer f52 b52
+xfer f53 b53
 xfer f54 b54
+xfer f55 b55
 xfer f56 b56
+xfer f57 b57
 xfer f58 b58
+xfer f59 b59
 xfer f60 b60
+xfer f61 b61
 xfer f62 b62
+xfer f63 b63
 xfer f64 b64
+xfer f65 b65
 xfer f66 b66
+xfer f67 b67
 xfer f68 b68
+xfer f69 b69
 xfer f70 b70
+xfer f71 b71
 xfer f72 b72
+xfer f73 b73
 xfer f74 b74
+xfer f75 b75
 xfer f76 b76
+xfer f77 b77
 xfer f78 b78
+xfer f79 b79
 xfer f80 b80
-knit + f1 1
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -524,86 +604,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -684,86 +844,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -844,86 +1084,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -1004,86 +1324,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -1164,86 +1564,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -1324,86 +1804,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -1484,86 +2044,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -1644,86 +2284,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -1804,86 +2524,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -1964,86 +2764,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -2124,86 +3004,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -2284,86 +3244,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -2444,86 +3484,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -2604,86 +3724,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -2764,86 +3964,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -2924,86 +4204,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -3084,86 +4444,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -3244,86 +4684,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -3404,86 +4924,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -3564,86 +5164,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -3724,86 +5404,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -3884,86 +5644,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -4044,86 +5884,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -4204,86 +6124,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -4364,86 +6364,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -4524,86 +6604,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -4684,86 +6844,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -4844,86 +7084,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -5004,86 +7324,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -5164,86 +7564,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -5324,86 +7804,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -5484,86 +8044,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -5644,86 +8284,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -5804,86 +8524,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -5964,86 +8764,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -6124,86 +9004,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -6284,86 +9244,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -6444,86 +9484,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -6604,86 +9724,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -6764,86 +9964,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -6924,86 +10204,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -7084,86 +10444,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -7244,86 +10684,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -7404,86 +10924,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -7564,86 +11164,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -7724,86 +11404,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -7884,86 +11644,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -8044,86 +11884,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -8204,86 +12124,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -8364,86 +12364,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -8524,86 +12604,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -8684,86 +12844,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -8844,86 +13084,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -9004,86 +13324,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -9164,86 +13564,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -9324,86 +13804,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -9484,86 +14044,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -9644,86 +14284,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1
@@ -9804,86 +14524,166 @@ knit - b4 1
 knit - f3 1
 knit - b2 1
 knit - f1 1
-knit + f1 1
+xfer f1 b1
+xfer f3 b3
+xfer f5 b5
+xfer f7 b7
+xfer f9 b9
+xfer f11 b11
+xfer f13 b13
+xfer f15 b15
+xfer f17 b17
+xfer f19 b19
+xfer f21 b21
+xfer f23 b23
+xfer f25 b25
+xfer f27 b27
+xfer f29 b29
+xfer f31 b31
+xfer f33 b33
+xfer f35 b35
+xfer f37 b37
+xfer f39 b39
+xfer f41 b41
+xfer f43 b43
+xfer f45 b45
+xfer f47 b47
+xfer f49 b49
+xfer f51 b51
+xfer f53 b53
+xfer f55 b55
+xfer f57 b57
+xfer f59 b59
+xfer f61 b61
+xfer f63 b63
+xfer f65 b65
+xfer f67 b67
+xfer f69 b69
+xfer f71 b71
+xfer f73 b73
+xfer f75 b75
+xfer f77 b77
+xfer f79 b79
+knit + b1 1
 knit + b2 1
-knit + f3 1
+knit + b3 1
 knit + b4 1
-knit + f5 1
+knit + b5 1
 knit + b6 1
-knit + f7 1
+knit + b7 1
 knit + b8 1
-knit + f9 1
+knit + b9 1
 knit + b10 1
-knit + f11 1
+knit + b11 1
 knit + b12 1
-knit + f13 1
+knit + b13 1
 knit + b14 1
-knit + f15 1
+knit + b15 1
 knit + b16 1
-knit + f17 1
+knit + b17 1
 knit + b18 1
-knit + f19 1
+knit + b19 1
 knit + b20 1
-knit + f21 1
+knit + b21 1
 knit + b22 1
-knit + f23 1
+knit + b23 1
 knit + b24 1
-knit + f25 1
+knit + b25 1
 knit + b26 1
-knit + f27 1
+knit + b27 1
 knit + b28 1
-knit + f29 1
+knit + b29 1
 knit + b30 1
-knit + f31 1
+knit + b31 1
 knit + b32 1
-knit + f33 1
+knit + b33 1
 knit + b34 1
-knit + f35 1
+knit + b35 1
 knit + b36 1
-knit + f37 1
+knit + b37 1
 knit + b38 1
-knit + f39 1
+knit + b39 1
 knit + b40 1
-knit + f41 1
+knit + b41 1
 knit + b42 1
-knit + f43 1
+knit + b43 1
 knit + b44 1
-knit + f45 1
+knit + b45 1
 knit + b46 1
-knit + f47 1
+knit + b47 1
 knit + b48 1
-knit + f49 1
+knit + b49 1
 knit + b50 1
-knit + f51 1
+knit + b51 1
 knit + b52 1
-knit + f53 1
+knit + b53 1
 knit + b54 1
-knit + f55 1
+knit + b55 1
 knit + b56 1
-knit + f57 1
+knit + b57 1
 knit + b58 1
-knit + f59 1
+knit + b59 1
 knit + b60 1
-knit + f61 1
+knit + b61 1
 knit + b62 1
-knit + f63 1
+knit + b63 1
 knit + b64 1
-knit + f65 1
+knit + b65 1
 knit + b66 1
-knit + f67 1
+knit + b67 1
 knit + b68 1
-knit + f69 1
+knit + b69 1
 knit + b70 1
-knit + f71 1
+knit + b71 1
 knit + b72 1
-knit + f73 1
+knit + b73 1
 knit + b74 1
-knit + f75 1
+knit + b75 1
 knit + b76 1
-knit + f77 1
+knit + b77 1
 knit + b78 1
-knit + f79 1
+knit + b79 1
 knit + b80 1
+xfer b1 f1
+xfer b3 f3
+xfer b5 f5
+xfer b7 f7
+xfer b9 f9
+xfer b11 f11
+xfer b13 f13
+xfer b15 f15
+xfer b17 f17
+xfer b19 f19
+xfer b21 f21
+xfer b23 f23
+xfer b25 f25
+xfer b27 f27
+xfer b29 f29
+xfer b31 f31
+xfer b33 f33
+xfer b35 f35
+xfer b37 f37
+xfer b39 f39
+xfer b41 f41
+xfer b43 f43
+xfer b45 f45
+xfer b47 f47
+xfer b49 f49
+xfer b51 f51
+xfer b53 f53
+xfer b55 f55
+xfer b57 f57
+xfer b59 f59
+xfer b61 f61
+xfer b63 f63
+xfer b65 f65
+xfer b67 f67
+xfer b69 f69
+xfer b71 f71
+xfer b73 f73
+xfer b75 f75
+xfer b77 f77
+xfer b79 f79
 knit - b80 1
 knit - f79 1
 knit - b78 1

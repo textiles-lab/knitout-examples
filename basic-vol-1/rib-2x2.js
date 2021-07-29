@@ -14,8 +14,8 @@ const Width = 80
 const Height = 120;
 //pattern will be tiled to Width/Height:
   const Pattern = [
-    'fb',
-    'fb'
+    'ffbb',
+    'ffbb'
   ];
 
 
@@ -55,6 +55,9 @@ const max = Width;
     }
   }
 caston();
+
+
+console.log("x-stitch-number 102");
 
 let on = [];
 //all stitches start on front bed:

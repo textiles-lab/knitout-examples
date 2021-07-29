@@ -14,8 +14,8 @@ const Width = 80
 const Height = 120;
 //pattern will be tiled to Width/Height:
   const Pattern = [
-    'fb',
-    'fb'
+    'ffb',
+    'ffb'
   ];
 
 
