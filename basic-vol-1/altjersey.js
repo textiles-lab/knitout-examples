@@ -9,15 +9,9 @@
 */
   
   
-  const Carrier = ['1'];
+const Carrier = '1';
 const Width = 80
 const Height = 120;
-//pattern will be tiled to Width/Height:
-  const Pattern = [
-    'f f ',
-    ' f f'
-  ];
-
 
 
 console.log(";!knitout-2")
@@ -56,45 +50,24 @@ const max = Width;
   }
 caston();
 
-let on = [];
-//all stitches start on front bed:
-  for (let s = 0; s <= (max-min); ++s) {
-    on.push('f');
-  }
-
 //build pattern:
   for (let r = 0; r < Height; ++r) {
-    let target = [];
-    const PatternRow = Pattern[Pattern.length - 1 - (r % Pattern.length)];
-    for (let s = 0; s <= (max-min); ++s) {
-      target.push(PatternRow[s % PatternRow.length]);
-    }
-    
-    for (let n = min; n <= max; ++n) {
-      if (on[n-min] !== target[n-min]) {
-        console.log("xfer " + on[n-min] + n + " " + target[n-min] + n);
-      }
-    }
-    on = target;
     
     if (r % 2 === 0) {
       for (let n = min; n <= max; ++n) {
-        console.log("knit + " + on[n-min] + n + " " + Carrier);
+        if ((max-n)%2 != 0) {
+          console.log("knit + f" + n + " " + Carrier);
+        }
       }
     } else {
-      for (let n = max; n >= min; --n) {
-        console.log("knit - " + on[n-min] + n + " " + Carrier);
+        for (let n = max; n >= min; --n) {
+          if ((max-n)%2 == 0) {
+          console.log("knit - f" + n + " " + Carrier);
+          }
+        }
       }
-    }
   }
 
-
-//everything back to front bed for bind-off:
-  for (let n = min; n <= max; ++n) {
-    if (on[n-min] !== 'f') {
-      console.log("xfer " + on[n-min] + n + " f" + n);
-    }
-  }
 
 console.log("outhook " + Carrier);
 

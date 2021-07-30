@@ -8,20 +8,12 @@
 
 */
   
-  
-  const Carrier = ['1'];
-const Width = 80
+const Carrier = '1';
+const Width = 90;
 const Height = 120;
-//pattern will be tiled to Width/Height:
-  const Pattern = [
-    'ffb',
-    'ffb'
-  ];
-
-
-
-console.log(";!knitout-2")
-console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10")
+console.assert(Width % 3 == 0, 'this program assumes that if the width is not a multiple of three the loops will not allign');
+console.log(";!knitout-2");
+console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10");
 
 const min = 1;
 const max = Width;
@@ -56,43 +48,37 @@ const max = Width;
   }
 caston();
 
-let on = [];
-//all stitches start on front bed:
-  for (let s = 0; s <= (max-min); ++s) {
-    on.push('f');
+for (let n = min + 2; n <= max; n = n + 3) {
+  console.log(`xfer f${n} b${n}`);
   }
+
+console.log(";-----------------------------------");
+
+console.log('rack +0.25');
 
 //build pattern:
   for (let r = 0; r < Height; ++r) {
-    let target = [];
-    const PatternRow = Pattern[Pattern.length - 1 - (r % Pattern.length)];
-    for (let s = 0; s <= (max-min); ++s) {
-      target.push(PatternRow[s % PatternRow.length]);
-    }
-    
-    for (let n = min; n <= max; ++n) {
-      if (on[n-min] !== target[n-min]) {
-        console.log("xfer " + on[n-min] + n + " " + target[n-min] + n);
-      }
-    }
-    on = target;
-    
     if (r % 2 === 0) {
       for (let n = min; n <= max; ++n) {
-        console.log("knit + " + on[n-min] + n + " " + Carrier);
+        console.log(`knit + f${n} ${Carrier}`);
+        n = n + 1 
+        console.log(`knit + f${n} ${Carrier}`);
+        console.log(`knit + b${n} ${Carrier}`);        
+        n = n + 1
+        console.log(`knit + b${n} ${Carrier}`);
+        
       }
+      
     } else {
+      console.log("knit - " + 'f' + max + " " + Carrier);
       for (let n = max; n >= min; --n) {
-        console.log("knit - " + on[n-min] + n + " " + Carrier);
+        console.log("knit - " + 'b' + n + " " + Carrier);
+        n = n - 1
+        console.log("knit - " + 'b' + n + " " + Carrier);
+        console.log("knit - " + 'f' + n + " " + Carrier);
+        n = n - 1
+        console.log("knit - " + 'f' + n + " " + Carrier);
       }
-    }
-  }
-
-
-//everything back to front bed for bind-off:
-  for (let n = min; n <= max; ++n) {
-    if (on[n-min] !== 'f') {
-      console.log("xfer " + on[n-min] + n + " f" + n);
     }
   }
 
@@ -102,3 +88,9 @@ console.log("outhook " + Carrier);
   for (let n = min; n <= max; ++n) {
     console.log("drop f" + n);
   }
+for (let n = min; n <= max; ++n) {
+  console.log("drop b" + n);
+}
+
+console.log('rack 0');
+
