@@ -52,6 +52,12 @@ tj-test.knitout : image-tj.js tj-test.png
 sheet-stripes.k : sheet-stripes.js
 	./sheet-stripes.js > sheet-stripes.k
 
+icord-cast-on.k : icord-cast-on.js
+	node '$<' > '$@'
+
+icord-bind-off.k : icord-bind-off.js
+	node '$<' > '$@'
+
 %.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
 	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
 
