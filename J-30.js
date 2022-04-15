@@ -29,7 +29,7 @@ const StartLoops = 30; //counted from example
 const StartRows = 30; //counted from example
 
 const EndLoops = 22; //counted from example
-const EndRows = 30; //approximate
+const EndRows = 26; //counted from example
 
 const Carrier = 3;
 
@@ -155,17 +155,30 @@ function shortRows(turns) {
 	//finish last row:
 	do {
 		knit();
-	} while (!(n == max && b == 'b'));
+	} while (!(n == max && b == 'f'));
 }
 
 while ((max+1-min) > EndLoops) {
 	decrease();
 	knitRow();
 	shortRows([
-		{b:'b', n:Math.round(0.75*(max-min)+min)},
-		{b:'b', n:Math.round(0.25*(max-min)+min)},
+		{b:'b', n:Math.round(0.7*(max-min)+min)},
+		{b:'b', n:Math.round(0.3*(max-min)+min)},
+		{b:'b', n:Math.round(0.65*(max-min)+min)},
+		{b:'b', n:Math.round(0.35*(max-min)+min)},
+		{b:'b', n:max},
+		{b:'b', n:min+1},
+		{b:'f', n:Math.round(0.65*(max-min)+min)},
+		{b:'f', n:Math.round(0.35*(max-min)+min)},
 	]);
 	knitRow();
 }
+
+
+for (let row = 0; row < EndRows; ++row) {
+	knitRow();
+}
+
+//TODO: bind-off
 
 console.log(`outhook ${Carrier}`);
