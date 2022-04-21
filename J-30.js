@@ -174,11 +174,54 @@ while ((max+1-min) > EndLoops) {
 	knitRow();
 }
 
-
+//ending tube:
 for (let row = 0; row < EndRows; ++row) {
 	knitRow();
 }
 
-//TODO: bind-off
+//bind-off (front):
+for (let n = max; n > min; --n) {
+	console.log(`knit - ${loc('f',n)} ${Carrier}`);
+	console.log(`miss - ${loc('f',n-1)} ${Carrier}`);
+	console.log(`xfer ${loc('f',n)} b${n*2}`);
+	console.log(`rack -2`);
+	console.log(`xfer b${n*2} ${loc('f',n-1)}`);
+	console.log(`rack 0`);
+}
+
+//leftmost front stitch:
+console.log(`knit - ${loc('f',min)} ${Carrier}`);
+console.log(`tuck - ${loc('f',min-1)} ${Carrier}`); //extra loop to help hold things up
+console.log(`rack -1`);
+console.log(`xfer ${loc('f',min)} ${loc('b',min)}`);
+console.log(`rack 0`);
+
+//bind-off (back):
+for (let n = min; n < max; ++n) {
+	console.log(`knit + ${loc('b',n)} ${Carrier}`);
+	console.log(`miss + ${loc('b',n+1)} ${Carrier}`);
+	console.log(`xfer ${loc('b',n)} f${n*2+1}`);
+	console.log(`rack -2`);
+	console.log(`xfer f${n*2+1} ${loc('b',n+1)}`);
+	console.log(`rack 0`);
+}
+
+//tag (on back -- though classic tag is on the front):
+console.log(`knit + ${loc('b',max)} ${Carrier}`);
+console.log(`knit - ${loc('b',max)} ${Carrier}`);
+console.log(`knit + ${loc('b',max)} ${Carrier}`);
+console.log(`knit - ${loc('b',max)} ${Carrier}`);
+console.log(`tuck - ${loc('b',max-1)} ${Carrier}`);
+console.log(`tuck + ${loc('b',max-2)} ${Carrier}`);
+console.log(`knit + ${loc('b',max-1)} ${Carrier}`);
+console.log(`knit + ${loc('b',max)} ${Carrier}`);
+for (let r = 0; r < 4; ++r) {
+	for (let n = max; n >= max-2; --n) {
+		console.log(`knit - ${loc('b',n)} ${Carrier}`);
+	}
+	for (let n = max-2; n <= max; ++n) {
+		console.log(`knit + ${loc('b',n)} ${Carrier}`);
+	}
+}
 
 console.log(`outhook ${Carrier}`);
