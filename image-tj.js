@@ -27,7 +27,7 @@ const Height = png.height;
 console.log(";!knitout-2")
 console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10")
 
-console.log("x-stitch-number 102"); //WATCH OUT! User-configurable! SUGGEST: 33/20
+console.log("x-stitch-number 102"); //WATCH OUT! User-configurable! SUGGEST: 33/26
 
 const min = 1;
 const max = Width;
