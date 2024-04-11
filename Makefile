@@ -25,6 +25,9 @@ lace.knitout : lace.js
 mosaic.knitout : mosaic.js
 	./'$<' > '$@'
 
+tube.knitout : tube.js
+	node '$<' > '$@'
+
 color_intarsia.knitout : color_intarsia.js
 	./color_intarsia.js > color_intarsia.knitout
 
@@ -39,6 +42,9 @@ rainbow-tj.knitout : rainbow-tj.js
 
 image-tj.knitout : image-tj.js image-tj.png
 	./image-tj.js > image-tj.knitout
+
+image-kp-half-rib.k : image-kp.js image-kp-half-rib.png
+	./image-kp.js image-kp-half-rib.png > image-kp-half-rib.k
 
 hyperbolic-plane.knitout : hyperbolic-plane.js
 	./hyperbolic-plane.js > hyperbolic-plane.knitout
@@ -59,6 +65,9 @@ icord-cast-on.k : icord-cast-on.js
 	node '$<' > '$@'
 
 icord-bind-off.k : icord-bind-off.js
+	node '$<' > '$@'
+
+basic-vol-1/%.knitout : basic-vol-1/%.js
 	node '$<' > '$@'
 
 %.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
