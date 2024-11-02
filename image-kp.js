@@ -71,9 +71,9 @@ for (let row = 0; row < Height; ++row) {
 			g:png.data[4*(png.width*(Height-1-row)+c)+1],
 			b:png.data[4*(png.width*(Height-1-row)+c)+2]
 		};
-		if (col.r == 255 && col.g == 0 && col.b == 0) {
+		if (Math.abs(col.r - 255) <= 2 && Math.abs(col.g - 0) <= 2 && Math.abs(col.b - 0) <= 2) {
 			targetBed.push('f');
-		} else if (col.r == 0 && col.g == 255 && col.b == 0) {
+		} else if (Math.abs(col.r - 0) <= 2 && Math.abs(col.g - 255) <= 2 && Math.abs(col.b - 0) <= 2) {
 			targetBed.push('b');
 		} else {
 			console.warn(`Unrecognized color ${col.r}, ${col.g}, ${col.b}.`);
