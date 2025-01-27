@@ -10,7 +10,7 @@
   
   
 const Carrier = '1';
-const Width = 80
+const Width = 80;
 const Height = 120;
 
 
