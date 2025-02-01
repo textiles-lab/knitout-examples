@@ -2,7 +2,7 @@
 // Knit a sheet with alternating rows of back/front and front/back knits; effectively two [[1x1 rib]] sheets interlocked with each-other.
 
 //Write header:
-  console.log(';!knitout-2');
+console.log(';!knitout-2');
 console.log(';;Machine: SWGN2');
 console.log(';;Carriers: 1 2 3 4 5 6 7 8 9 10');
 
@@ -14,7 +14,7 @@ console.log(';;Carriers: 1 2 3 4 5 6 7 8 9 10');
   
   //Because of its structure, interlock does not require a [[cast-on]].
   //Instead, we just bring the yarn in and start knitting:
-    console.log(`inhook ${carrier}`);
+  console.log(`inhook ${carrier}`);
   console.log(`x-stitch-number 102`);
   
   // ---- interlock sheet ----
@@ -56,6 +56,8 @@ console.log(';;Carriers: 1 2 3 4 5 6 7 8 9 10');
   //drop loops:
     for (let n = min; n <= max; n += 1) {
       console.log(`drop f${n}`);
+    }
+    for (let n = min; n <= max; n += 1) {
       console.log(`drop b${n}`);
     }
   
