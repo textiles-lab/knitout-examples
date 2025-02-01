@@ -37,6 +37,12 @@ tube-heart.knitout : tube-heart.js
 chain-link.knitout : chain-link.js
 	./chain-link.js > chain-link.knitout
 
+image-lace-test.knitout : image-lace-test.png image-lace.js
+	./image-lace.js '$<' > '$@'
+
+image-lace-test-2.knitout : image-lace-test-2.png image-lace.js
+	./image-lace.js '$<' > '$@'
+
 rainbow-tj.knitout : rainbow-tj.js
 	./rainbow-tj.js > rainbow-tj.knitout
 
@@ -45,6 +51,12 @@ image-tj.knitout : image-tj.js image-tj.png
 
 image-kp-half-rib.k : image-kp.js image-kp-half-rib.png
 	./image-kp.js image-kp-half-rib.png > image-kp-half-rib.k
+
+image-tube-diag.k : image-tube.js image-tube-diag.png
+	node image-tube.js image-tube-diag.png > image-tube-diag.k
+
+image-tube-accordian.k : image-tube.js image-tube-accordian.png
+	node image-tube.js image-tube-accordian.png > image-tube-accordian.k
 
 hyperbolic-plane.knitout : hyperbolic-plane.js
 	./hyperbolic-plane.js > hyperbolic-plane.knitout
