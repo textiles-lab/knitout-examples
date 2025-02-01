@@ -9,14 +9,14 @@
 */
   
   
-  const Carrier = ['1'];
+const Carrier = ['1'];
 const Width = 80
 const Height = 120;
 //pattern will be tiled to Width/Height:
-  const Pattern = [
-    'fb',
-    'fb'
-  ];
+const Pattern = [
+	'fb',
+	'fb'
+];
 
 
 
