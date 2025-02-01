@@ -9,19 +9,18 @@
 */
   
   
-  const Carrier = ['1'];
-const Width = 80
+const Carrier = ['1'];
+const Width = 80;
 const Height = 120;
+const Margin = 0;
 //pattern will be tiled to Width/Height:
-  const Pattern = [
-    'ff',
-    'ff'
-  ];
+let Pattern;
 
-
-
-console.log(";!knitout-2")
-console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10")
+console.log(";!knitout-2");
+console.log(";;Carriers: 1 2 3 4 5 6 7 8 9 10");
+//HACK: put carriers a bit left of the right edge
+console.log(";;Width: 530");
+console.log(";;Position: Right");
 
 const min = 1;
 const max = Width;
@@ -62,13 +61,19 @@ let on = [];
     on.push('f');
   }
 
-//build pattern:
-  for (let r = 0; r < Height; ++r) {
+let dir = '+';
+let r = 0;
+
+function row(edges) {
     let target = [];
     const PatternRow = Pattern[Pattern.length - 1 - (r % Pattern.length)];
     for (let s = 0; s <= (max-min); ++s) {
       target.push(PatternRow[s % PatternRow.length]);
     }
+	if (edges) {
+		target[0] = 'f';
+		target[target.length-1] = 'f';
+	}
     
     for (let n = min; n <= max; ++n) {
       if (on[n-min] !== target[n-min]) {
@@ -77,16 +82,46 @@ let on = [];
     }
     on = target;
     
-    if (r % 2 === 0) {
+    if (dir === '+') {
       for (let n = min; n <= max; ++n) {
         console.log("knit + " + on[n-min] + n + " " + Carrier);
       }
+	  dir = '-';
     } else {
       for (let n = max; n >= min; --n) {
         console.log("knit - " + on[n-min] + n + " " + Carrier);
       }
+	  dir = '+';
     }
-  }
+	r += 1;
+}
+
+//build starting rib:
+Pattern = [
+	'ffbb',
+	'ffbb'
+];
+for (let r = 0; r < Margin; ++r) {
+	row(true);
+}
+
+//build pattern:
+Pattern = [
+	'ff',
+	'ff'
+];
+for (let r = 0; r < Height; ++r) {
+	row();
+}
+
+//build ending seed:
+Pattern = [
+	'ffbb',
+	'ffbb'
+];
+for (let r = 0; r < Margin; ++r) {
+	row(true);
+}
 
 
 //everything back to front bed for bind-off:
