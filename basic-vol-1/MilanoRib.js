@@ -8,7 +8,7 @@
 
 */
   
-  const Carrier = '1';
+const Carrier = '1';
 const Width = 80;
 const Height = 180;
 console.assert(Height % 3 == 0, 'this program assumes that if the width is not a multiple of three the loops will not allign');
