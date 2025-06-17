@@ -82,6 +82,9 @@ icord-bind-off.k : icord-bind-off.js
 basic-vol-1/%.knitout : basic-vol-1/%.js
 	node '$<' > '$@'
 
+striped-scarf.knitout : striped-scarf.js
+	node '$<' > '$@'
+
 %.dat : %.knitout ../knitout-backend-swg/knitout-to-dat.js
 	../knitout-backend-swg/knitout-to-dat.js '$<' '$@'
 
