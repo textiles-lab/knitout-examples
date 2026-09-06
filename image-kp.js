@@ -4,7 +4,7 @@
 
 
 /*
- load an image and build a tubular jacquard from it
+ load an image and build a knit/purl texture from it
  */
 
 if (process.argv.length < 3) {
